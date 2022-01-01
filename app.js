@@ -7,6 +7,7 @@ import {} from './test.js';
 
 // przykładowe dane
 const data = [1,2,3,4,5,6,25,28,33,38,40,99,274,454,566,788,699,800];
+
 const settings = { actualPageIdx: 1, entriesOnPage: 2 }; 
 
 
