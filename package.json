@@ -1,0 +1,21 @@
+{
+  "name": "task1-pagination",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siwy256/JS-Fundamentals-task1-pagination.git"
+  },
+  "keywords": [],
+  "author": "siwy256",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siwy256/JS-Fundamentals-task1-pagination/issues"
+  },
+  "homepage": "https://github.com/siwy256/JS-Fundamentals-task1-pagination#readme"
+}
