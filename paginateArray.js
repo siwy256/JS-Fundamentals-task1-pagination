@@ -1,4 +1,4 @@
-import {paginateArrayValidation} from './paginanteArrayValidation.js';
+import {paginateArrayValidation} from './paginateArrayValidation.js';
 
 
 // turn off for tests:
