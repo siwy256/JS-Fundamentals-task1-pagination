@@ -17,7 +17,7 @@ console.log('Start');
 //  */
 
 const paginateArray = (dataEntries, settings) => {
-	// validating
+	//validating
 	if(! (dataEntries instanceof Array) ) { throw new Error('first parameter "dataEntries" has to be array type'); } 
 	
 	const isAllEntriesTypeOfNumber = dataEntries.every( (item)=> typeof item === 'number');
@@ -37,7 +37,7 @@ const paginateArray = (dataEntries, settings) => {
 
 	if( actualPageIdx<0) { throw new Error(`parameter "actualPageIdx" in "setings" has to be a positive integer.`); }
 	if( entriesOnPage<0) { throw new Error(`parameter "actualPageIdx" in "setings" has to be a positive integer.`); }
-	// end of validating
+	//end of validating
 
 	
 	/**
@@ -59,7 +59,7 @@ const paginateArray = (dataEntries, settings) => {
 paginateArray([], settings);
 
 let result = paginateArray(data, settings);
-// console.dir(result);
+//console.dir(result);
 
 result = paginateArray(data, {actualPageIdx: 0, entriesOnPage: 5});
 console.log(result);
