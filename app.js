@@ -17,7 +17,7 @@ console.log('Start');
 //  */
 
 const paginateArray = (dataEntries, settings) => {
-	// validating
+	// validating 2
 	if(! (dataEntries instanceof Array) ) { throw new Error('first parameter "dataEntries" has to be array type'); } 
 	
 	const isAllEntriesTypeOfNumber = dataEntries.every( (item)=> typeof item === 'number');
