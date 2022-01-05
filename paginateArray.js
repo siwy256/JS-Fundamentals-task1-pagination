@@ -17,10 +17,6 @@ export default function paginateArray(dataEntries, settings) {
   /**
    * @type {number} - sample of usage type check
    */
-
-  // const arrayLength = dataEntries.length;
-  // const pageCount = Math.floor(arrayLength / entriesOnPage);
-
   const firstEntry = entriesOnPage * actualPageIdx;
   const lastEntry = firstEntry + entriesOnPage;
 
